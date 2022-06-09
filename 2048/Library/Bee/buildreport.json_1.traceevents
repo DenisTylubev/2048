@@ -1,0 +1,515 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1654765765479711, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654765765481566, "dur": 15246, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654765765497114, "dur": 60189, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654765765557333, "dur": 336301, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654765765893636, "dur": 5176448, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654765771070111, "dur": 10018, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654765782691374, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654765782691693, "dur": 3310, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654765782695009, "dur": 63939, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654765782758950, "dur": 396080, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654765783155033, "dur": 2333891, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654765785488926, "dur": 13132, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654765785502865, "dur": 29, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1654765782983301, "dur": 153422, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1654765782984552, "dur": 56278, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1654765783115252, "dur": 6157, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1654765783121412, "dur": 15302, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1654765783122273, "dur": 13127, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1654765783142225, "dur": 1545, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1654765783141276, "dur": 2518, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654765785503015, "dur": 264, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1654765783225221, "dur":1936, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765783227170, "dur":72, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1654765783227253, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1654765783227274, "dur":750, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1654765783228067, "dur":877, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765783228945, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785467919, "dur":368, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468287, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468322, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468325, "dur":57, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468382, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468384, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468400, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468402, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468418, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468420, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468450, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468453, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468462, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468464, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468472, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468474, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468483, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468485, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468493, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468496, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468505, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468507, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468515, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468517, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468526, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468545, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785468609, "dur":2025, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1654765783229024, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765783229025, "dur":9568, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765783238613, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1654765783238622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765783240256, "dur":1075, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1654765783241337, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1654765783241438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765783242199, "dur":22605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1654765783264812, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1654765783265121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765783266017, "dur":91474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1654765783357567, "dur":862821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784220395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765784220522, "dur":8364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784228998, "dur":61571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784290578, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765784290592, "dur":3265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784293927, "dur":163858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784457791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765784457799, "dur":2222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784460130, "dur":105542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784565681, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765784565696, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784567710, "dur":83618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784651336, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765784651348, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784653973, "dur":55361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784709378, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765784709388, "dur":2386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784711847, "dur":51560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784763414, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765784763425, "dur":2475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784765997, "dur":48605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784814609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765784814619, "dur":5422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784820149, "dur":49077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784869235, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765784869249, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784872584, "dur":115508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784988096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765784988102, "dur":5108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765784993284, "dur":49055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765785042363, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765785042378, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765785044877, "dur":261478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765785306363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654765785306374, "dur":4734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654765785311205, "dur":156718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765783229109, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765783229110, "dur":9509, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765783238620, "dur":19123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1654765783257749, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765783257777, "dur":9243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1654765783267108, "dur":594290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765783861410, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765783861980, "dur":20507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765783882588, "dur":369627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765784252221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765784252232, "dur":13031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765784265358, "dur":185355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765784450722, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765784450763, "dur":2408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765784453245, "dur":222784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765784676039, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765784676056, "dur":7429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765784683559, "dur":88269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765784771835, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765784771850, "dur":2485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765784774421, "dur":43974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765784818402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765784818413, "dur":2201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765784820743, "dur":74287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765784895039, "dur":370, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765784895419, "dur":4314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765784899843, "dur":317746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765785217598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765785217610, "dur":17253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654765785234946, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1654765785235033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765785235189, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1654765785237707, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1654765785237790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765785237798, "dur":25179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1654765785263069, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654765785263150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765785263158, "dur":4716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654765785267942, "dur":24852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1654765785292811, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765785292822, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1654765785295134, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1654765785295454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654765785295463, "dur":4226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1654765785299761, "dur":168149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654765783229092, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654765783229092, "dur":9510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654765783238614, "dur":52281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1654765783290906, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654765783356524, "dur":7645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1654765783364243, "dur":479333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765783843592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654765783843765, "dur":11305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765783855169, "dur":393737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765784248916, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654765784248929, "dur":7207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765784256246, "dur":195028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765784451281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654765784451302, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765784453326, "dur":51425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765784504761, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654765784504775, "dur":14358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765784520422, "dur":81801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765784602230, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654765784602241, "dur":4202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765784606514, "dur":93250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765784699774, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654765784699791, "dur":3206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765784703084, "dur":63688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765784766779, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654765784766791, "dur":4925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765784771820, "dur":183257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765784955086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654765784955096, "dur":8937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765784964108, "dur":223982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765785188737, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654765785188759, "dur":40931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765785229781, "dur":68731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765785298520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654765785298532, "dur":2582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654765785301202, "dur":166716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765783229153, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765783229154, "dur":9459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765783238617, "dur":22318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1654765783260940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765783260959, "dur":4144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1654765783265243, "dur":15007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1654765783280259, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765783280271, "dur":83573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1654765783363915, "dur":483446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048.exe" }}
+,{ "pid":12345, "tid":4, "ts":1654765783847369, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765783847406, "dur":6307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048.exe" }}
+,{ "pid":12345, "tid":4, "ts":1654765783853791, "dur":396037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784249833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765784249841, "dur":6116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784256131, "dur":197136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784453272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765784453281, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784455185, "dur":67052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784522250, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765784522268, "dur":2826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784525174, "dur":64983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784590167, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765784590182, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784592598, "dur":74934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784667541, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765784667552, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784670827, "dur":65288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784736142, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765784736161, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784739158, "dur":110336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784849505, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765784849520, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784852349, "dur":120426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784972782, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765784972793, "dur":2206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765784975086, "dur":173698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765785148793, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765785148805, "dur":7674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765785156570, "dur":306438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765785463013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654765785463021, "dur":4780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654765785467862, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1654765785467865, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654765783229188, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654765783229189, "dur":9419, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654765783238615, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1654765783239021, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654765783243017, "dur":22134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1654765783265251, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1654765783265486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654765783265587, "dur":98607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1654765783364315, "dur":475325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765783839655, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654765783840428, "dur":3343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765783843916, "dur":403365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765784247290, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654765784247301, "dur":3923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765784251330, "dur":203885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765784455219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654765784455226, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765784457610, "dur":131753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765784589371, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654765784589381, "dur":2962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765784592630, "dur":52270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765784644910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654765784644922, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765784646724, "dur":109000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765784755734, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654765784755747, "dur":4309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765784760162, "dur":49847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765784810016, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654765784810026, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765784812394, "dur":75477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765784887924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654765784887935, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765784889693, "dur":410980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765785300678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654765785300687, "dur":2691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654765785303466, "dur":164455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654765783229235, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654765783229236, "dur":9381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654765783238618, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1654765783239032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654765783255533, "dur":9765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1654765783265384, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1654765783265571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654765783266088, "dur":1576223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1654765784842415, "dur":81261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654765784923685, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654765784923699, "dur":9082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654765784932854, "dur":194704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654765785127566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654765785127576, "dur":2283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654765785129935, "dur":166363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654765785296303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654765785296347, "dur":4156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654765785300708, "dur":167240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654765783229270, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654765783229271, "dur":9349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654765783238621, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1654765783239093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654765783255482, "dur":102052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1654765783357608, "dur":1063630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765784421244, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654765784421255, "dur":33408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765784454744, "dur":68582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765784523351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654765784523360, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765784526400, "dur":66004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765784592408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654765784592417, "dur":2283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765784594782, "dur":67984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765784662775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654765784662912, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765784665259, "dur":56403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765784721669, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654765784721681, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765784723807, "dur":56187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765784780005, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654765784780018, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765784782061, "dur":40965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765784823034, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654765784823054, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765784825526, "dur":244839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765785070372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654765785070381, "dur":3400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765785073866, "dur":248910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765785322782, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654765785322792, "dur":3506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654765785326358, "dur":141569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654765783229297, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654765783229297, "dur":9308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654765783238613, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1654765783238927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654765783243537, "dur":23417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1654765783267065, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1654765783267253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654765783267261, "dur":95042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1654765783362376, "dur":559238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1654765783921621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654765783921628, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1654765783923754, "dur":322063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654765784245829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654765784245841, "dur":5511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654765784251446, "dur":197260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654765784448722, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654765784448739, "dur":2945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654765784451774, "dur":185400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654765784637186, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654765784637199, "dur":3407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654765784640680, "dur":49972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654765784690663, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654765784690678, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654765784693323, "dur":147514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654765784840846, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654765784840859, "dur":2539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654765784843473, "dur":183872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654765785027349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654765785027357, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654765785029252, "dur":310909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654765785340166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654765785340201, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654765785341939, "dur":125996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765783229325, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765783229326, "dur":9306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765783238633, "dur":21127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1654765783259768, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765783259797, "dur":6538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1654765783266413, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1654765783266588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765783266594, "dur":97325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1654765783363993, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1654765783364150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765783364832, "dur":479982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1654765783844927, "dur":421999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784266934, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765784266946, "dur":11960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784279020, "dur":179357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784458382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765784458389, "dur":2858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784461325, "dur":48229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784524439, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765784524464, "dur":6664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784531228, "dur":72174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784603409, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765784603419, "dur":2893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784606398, "dur":88064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784694470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765784694481, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784697724, "dur":63136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784760865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765784760876, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784762779, "dur":51677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784814463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765784814476, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784817466, "dur":71781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784889256, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765784893993, "dur":2719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765784896787, "dur":125257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765785022051, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765785022062, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765785023837, "dur":228977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765785252823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765785252836, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654765785255293, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1654765785255370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765785255379, "dur":3343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1654765785258804, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1654765785258889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765785258899, "dur":6901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1654765785265969, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1654765785266382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765785266393, "dur":4025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1654765785270500, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1654765785270577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765785270624, "dur":4551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1654765785275360, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1654765785275469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765785275480, "dur":2641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1654765785278201, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/level1.resS" }}
+,{ "pid":12345, "tid":9, "ts":1654765785278277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765785278285, "dur":7102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/level1.resS" }}
+,{ "pid":12345, "tid":9, "ts":1654765785285462, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1654765785285641, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765785285654, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1654765785287751, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1654765785287833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765785287842, "dur":1986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1654765785289897, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1654765785289964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765785289972, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1654765785291786, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1654765785291886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765785291898, "dur":2300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1654765785294292, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1654765785294420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654765785294445, "dur":4090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1654765785298611, "dur":169301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765783229364, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765783229365, "dur":9241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765783238614, "dur":21903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1654765783260526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765783260621, "dur":4671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1654765783265383, "dur":71011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1654765783336452, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765783336472, "dur":27800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1654765783364345, "dur":480417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765783844768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765783844777, "dur":11183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765783856035, "dur":393803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784249841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765784249847, "dur":4473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784254402, "dur":187180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784441590, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765784441602, "dur":1986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784443671, "dur":97881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784541559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765784541570, "dur":2451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784544127, "dur":46692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784590824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765784590832, "dur":2929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784593839, "dur":53476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784647321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765784647330, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784649119, "dur":115307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784764434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765784764443, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784767304, "dur":42407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784809724, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765784809742, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784812166, "dur":44554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784856739, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765784856750, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784858713, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765784858801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765784858811, "dur":168367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765785027256, "dur":114907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765785142173, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765785142186, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765785145462, "dur":63643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765785209156, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765785209179, "dur":19375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765785228634, "dur":197573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765785426213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654765785426220, "dur":18324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654765785444597, "dur":23335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654765783229393, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654765783229393, "dur":9241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654765783238636, "dur":647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1654765783239287, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654765783255542, "dur":1579715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1654765784835353, "dur":73098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654765784908544, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654765784908558, "dur":5830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654765784914480, "dur":155859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654765785070354, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654765785070369, "dur":3522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654765785073975, "dur":59313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654765785133306, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654765785133318, "dur":4099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654765785137521, "dur":192638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654765785330166, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654765785330177, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654765785332180, "dur":135750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654765783229434, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654765783229434, "dur":9182, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654765783238617, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1654765783239026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654765783243609, "dur":1591952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1654765784835674, "dur":61259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654765784896937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654765784896946, "dur":3537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654765784900556, "dur":87314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654765784987877, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654765784987888, "dur":4824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654765784992802, "dur":114128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654765785106937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654765785106947, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654765785109553, "dur":220406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654765785329967, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654765785329979, "dur":2850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/RJEK/Desktop/q2048_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654765785332886, "dur":135064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654765785472898, "dur":2311, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1654765785503355, "dur": 948, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654765785502851, "dur": 1475, "ph": "X", "name": "Write chrome-trace events", "args": {} },
